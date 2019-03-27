@@ -1,0 +1,287 @@
+@import url('http://fonts.googleapis.com/css?family=Osward');
+body {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    background: url(images/Smoke_expanded.png) no-repeat top center;
+    background-size: cover;
+}
+
+}
+    
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header{
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #FFF;
+    padding: 14% 0 0;
+    font-family: 'SenatorDemi', sans-serif;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+header ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    
+    padding-top: 200px;
+}
+header ul li.first {
+    text-align: left;
+}
+header ul li.last {
+    text-align: right;
+}
+
+section {
+	height: 100vh;
+}
+
+footer{
+    text-align: center;
+    background: #000;
+    color: #FFF;
+    padding: 140px 0 90px;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'SenatorDemi', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.music-videos h2{
+    color: black;
+}
+
+
+.songs h2 {
+    color:black;
+}
+.social h2 {
+    color:black;
+}
+h1 {
+    font-size: 64px;
+    line-height: 68px;
+    margin: 0;
+    
+}
+h2 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid #D3A939;
+}
+h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+a{
+    color: #2B9FD6;
+    text-decoration: none;
+}
+a:hover {
+    color: #30BEFF;
+    text-decoration: underline;
+}
+ul,
+ol{
+    margin: 0;
+}
+header p{
+    font-style: italic;
+}
+span.bold{
+    font-weight: bold;
+}
+.music-bars {
+	overflow: hidden;
+}
+.music-bars img {
+	max-width: 1600px;
+}
+
+.about img {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    margin-right: 5%;
+}
+.about div div {
+    display: inline-block;
+    vertical-align: top;
+    width: 44%;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+.music-videos {    
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.music-videos h2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+.music-videos div.your-class {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    
+}
+video {
+    background: #000;
+}
+
+.interviews {
+		text-align: right;
+    height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+.interviews h2 {
+	text-align: left;
+}
+.interviews div div {
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	margin-bottom: -90px;
+}
+
+.songs span {
+    float: right;font-family: 'Avenir Next', sans-serif;
+    font-size: 16px;
+    }
+.songs li {
+    list-style: none;
+    padding: 0 0 0 220px;
+    margin: 0;
+		font-family: 'Avenir Next', sans-serif;
+		font-size: 16px;
+		color: white;
+		position: relative;
+}
+.songs li:before {
+		background: url(images/play-btn.png) no-repeat center center;
+		width: 23px;
+		height: 23px;
+		display: block;
+		content: "";
+		position: absolute;
+		left: -32px;
+		top: 0;
+}
+
+.social {
+	
+}
+
+.social img {
+    display: inline-block;
+    vertical-align: top;
+    width: 32.6%;
+    margin: 0 1% 1% 0;
+}
+.social img.last {
+	margin-right: 0;
+}
+
+.logos {
+    width: 400px;
+    margin: 0 auto;
+}
+.logos div {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+.logos img {
+	width: 50%;
+}
+.logos h5 {
+	margin-top: 0;
+}
+.about div {
+    color: white;
+    
+}
+
+
+.songs span {
+    color: white
+}
+footer h5 {
+    color: white
+}
+
+.header div {
+    padding: 10 10 10 10
+}
+
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+@media (max-width: 800px) {
+    body{
+        breakpoint: color here;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background: color here;
+    }
+}
+
+.accordion {
+    background: transparent;
+  color: #FFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+menu, ol, ul, .item-list ul {
+    padding: 0 0 0 0px;
+}
+audio {
+    width: 100%;
+}
+
+
+
+
+
+
